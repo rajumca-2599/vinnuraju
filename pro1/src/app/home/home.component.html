@@ -1,0 +1,53 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;" id="ram">
+
+    <div>
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="feereport">FeeReport</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home">Home</a>
+        </li>
+  
+      </ul>
+    </div>
+  </nav>
+
+
+
+<div class="row">
+    <div class="clo-6" style="margin-left: 100px;">
+        <h1>Admin login Form</h1>
+        <form style="width: 500px; margin: 10px 10px 10px 10px;">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" [(ngModel)]="email" name="email" >
+                
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" [(ngModel)]="password" name="password">
+            </div>
+            
+            <button class="btn btn-primary" (click)="add()">login</button>
+        </form>
+    </div>
+    <div class="clo-6" style="margin-left: 100px;">
+
+        <h1>Accountant login Form</h1>
+        <form style="width: 500px; margin: 10px 10px 10px 10px;">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" [(ngModel)]="email1" name="email1" >
+            
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" [(ngModel)]="password1" name="password1">
+      </div>
+            <button class="btn btn-primary"(click)="add1()">login</button>
+        </form>
+    </div>
+</div>

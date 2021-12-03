@@ -1,0 +1,66 @@
+
+<div style="margin-left: 500px;">
+    <h1>student Form</h1>
+    <div style="width: 500px; margin: 10px 10px 10px 10px;">
+        <div *ngIf="emp2">
+            <div class="form-group">
+
+                <label for="id1">id</label>
+                <input type="text" class="form-control" id="id1" [(ngModel)]="emp2.id">
+
+            </div>
+            <div class="form-group">
+
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" [(ngModel)]="emp2.name">
+
+            </div>
+            <div class="form-group">
+
+                <label for="email">email</label>
+                <input type="text" class="form-control" id="email" [(ngModel)]="emp2.email">
+
+            </div>
+            <div class="form-group">
+                <label for="sex">sex</label>
+                <input type="text" class="form-control" id="sex" [(ngModel)]="emp2.sex">
+
+            </div>
+            <div class="form-group">
+
+                <label for="course">course</label>
+                <input type="text" class="form-control" id="course" [(ngModel)]="emp2.course">
+
+            </div>
+            <div class="form-group">
+
+                <label for="fee">fee</label>
+                <input type="text" class="form-control" id="fee" [(ngModel)]="emp2.fee">
+
+            </div>
+            <div class="form-group">
+                <label for="paid">Paid</label>
+                <input type="text" class="form-control" id="paid" [(ngModel)]="emp2.paid">
+            </div>
+            <div class="form-group">
+
+                <label for="due">due</label>
+                <input type="text" class="form-control" id="due" [(ngModel)]="emp2.due">
+
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea rows="4" cols="50" id="address" class="form-control" [(ngModel)]="emp2.address">
+                Enter address here...</textarea>
+            </div>
+            <div class="form-group">
+                <label for="phno">Mobile.no</label>
+                <input type="number" class="form-control" id="phno" [(ngModel)]="emp2.contact">
+            </div>
+
+
+        </div>
+    </div>
+    <button (click)="update2()" class="btn btn-primary" style="margin-left: 70px;" >update Accountant</button>
+       
+</div>

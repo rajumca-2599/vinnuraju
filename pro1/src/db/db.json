@@ -1,0 +1,66 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Suresh",
+      "email": "sureah@gmail.com",
+      "sex": "male",
+      "course": "Python",
+      "fee": 10000,
+      "paid": 5000,
+      "due": 5000,
+      "address": "Hyderabad",
+      "contact": 9963292180
+    },
+    {
+      "id": 2,
+      "name": "Dhanush",
+      "email": "dhanusha@gmail.com",
+      "sex": "male",
+      "course": "Java",
+      "fee": 8000,
+      "paid": 2000,
+      "due": 6000,
+      "address": "Hyderabad",
+      "contact": 8309102599
+    },
+    {
+      "id": "3",
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "sex": "male",
+      "course": "mpc",
+      "fee": "12000",
+      "paid": "60000",
+      "due": "6000",
+      "address": "west",
+      "contact": 1234543212
+    }
+  ],
+  "accountants": [
+    {
+      "name": "SIVA",
+      "email": "siva@gmail.com",
+      "password": "12345",
+      "address": "easggodavari",
+      "contact": 9392913456,
+      "id": 102
+    },
+    {
+      "name": "sai123",
+      "email": "sai@gmail.xcom",
+      "password": "1234567",
+      "address": "westgodavari",
+      "contact": 1234554321,
+      "id": 103
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "address": "",
+      "contact": "",
+      "id": 104
+    }
+  ]
+}
